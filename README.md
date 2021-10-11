@@ -15,10 +15,6 @@ La infraestructura seleccionada consistirá en dos máquinas virtuales: una que 
 
 La página web tendrá IP estática, mientras que el servidor tendrá IP dinámica.
 
-### Plataforma seleccionada
-
-La plataforma seleccionada para el despliegue de dicha infraestructura será Google Cloud Platform
-
 ## Recursos a desplegar
 
 La infraestructura desplegada constará de los siguientes recursos:
@@ -388,3 +384,5 @@ Si todo ha ido bien, veremos una salida como esta:
 	google_compute_instance.ftp-server: Creation complete after 16s [id=projects/cloudcomputing-311313/zones/europe-west1-b/instances/ftp]
 	
 	Apply complete! Resources: 6 added, 0 changed, 0 destroyed.
+	
+Con esto ya estarán los recursos desplegados en GCP
