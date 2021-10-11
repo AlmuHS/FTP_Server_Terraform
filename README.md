@@ -1,13 +1,13 @@
-# Tarea 4: Infraestructura como Código: Terraform
-## Cloud Computing
+# FTP Server Terraform
+## Infraestructura de servidor FTP desplegada con Terraform
 
-## Enunciado
+## Introducción
 
-Para desarrollar esta tarea realiza los siguientes  pasos:
+Este proyecto implementa la infraestructura necesaria para crear un servidor FTP, y una aplicación web que permita acceder a los ficheros desde el navegador.
 
-- Crear los ficheros necesarios con Terraform para crear una infraestructura a tu elección en GCP o AWS
-- Sube a un repositorio Github los ficheros generados
-- Publica el enlace al repositorio en esta tarea de Moodle
+Para ello, diseñará la infraestructura en Terraform, y la desplegará sobre GCP, incluyendo las reglas de firewall y las direcciones IP necesarias para su funcionamiento.
+
+**Este proyecto simplemente despliega la infraestructura en la nube: no crea el servidor ftp ni la aplicación web**
 
 ## Infraestructura seleccionada
 
